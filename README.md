@@ -8,7 +8,7 @@ submits them and decision tree calculates getting click possibility. If user lea
 an id3 approach and calculates possibilities for all inputs for that feature e.g. Gender: All -> Man, Woman. System asks user
 another input which is minimum (or default or worst case) bid price. Default minimum bid price is set as 100 kuruş. It uses it in a calculation: 
 
-Estimated bid price = worst case bid price + 10 * possibility to get click for that condition
+Estimated bid price = minimum bid price + 10 * possibility to get click for that condition
 
 To run the application you have to run FLASK_APP=page.py flask run in your terminal. It serves flask app on 127.0.0.1:5000.
 
